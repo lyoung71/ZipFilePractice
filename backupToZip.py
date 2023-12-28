@@ -6,7 +6,7 @@
 import zipfile, os
 
 
-def backupToZip(folder):
+def backup_to_zip(folder):
     folder = os.path.abspath(folder)
 
     number = 1
